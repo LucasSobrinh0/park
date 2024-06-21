@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > a h1{
+    color: rgb(0, 41, 117);
+    margin-top: 5vh;
+}
+
+main section{
+    margin-top: 5vh;
+}
+
+.park-container {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(4, 255, 4);
+    cursor: pointer;
+    color: rgb(0, 41, 117);
+    font-weight: bold;
+}
+
+.itens-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    height: 100%; /* Ocupa toda a altura do .park-container */
+}
+
+.fa-car {
+    font-size: 30px;
+}
+
+.car-number {
+    margin-top: 5px; /* Espaçamento entre o ícone e o número */
+    font-size: 14px;
+}
+
+.occupied{
+    background-color: #ff3838;
+}
